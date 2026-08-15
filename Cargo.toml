@@ -1,0 +1,11 @@
+[package]
+name = "bag-of-holding"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+httparse = "1.10.1"
+uuid = { version = "1.24.0", features = ["v4"]}
+serde = { version = "1.0.229", features = ["derive"]}
+serde_json = "1.0.151"
+blake3 = "1.8.6"
